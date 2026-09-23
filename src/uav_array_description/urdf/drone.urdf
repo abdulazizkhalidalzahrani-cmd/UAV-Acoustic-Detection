@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="dji_phantom">
+  <link name="base_link">
+    <visual>
+      <!-- قمنا بتدوير الطائرة 90 درجة (1.57 راديان) لتستوي أفقياً -->
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <!-- قمنا بتصغير الحجم إلى 1% من حجمه الأصلي -->
+        <mesh filename="file:///home/azzoz/uav_doa_ws/src/uav_array_description/urdf/meshes/DJI Phantom 4 RTK.obj" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

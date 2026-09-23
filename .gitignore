@@ -1,0 +1,15 @@
+# ROS 2 Folders
+build/
+install/
+log/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Large Audio Files (Should not be uploaded to GitHub)
+*.wav
+*.mp3
+
+# Editor files
+.vscode/

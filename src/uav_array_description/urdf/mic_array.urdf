@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<robot name="doa_mic_array">
+
+  <!-- القاعدة المركزية للمصفوفة -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.11"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ألوان الميكروفونات -->
+  <material name="black">
+    <color rgba="0.1 0.1 0.1 1"/>
+  </material>
+
+  <!-- الميكروفون 1 (0 درجة) -->
+  <link name="mic_1">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_1" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_1"/>
+    <origin xyz="0.1 0.0 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 2 (45 درجة) -->
+  <link name="mic_2">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_2" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_2"/>
+    <origin xyz="0.0707 0.0707 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 3 (90 درجة) -->
+  <link name="mic_3">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_3" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_3"/>
+    <origin xyz="0.0 0.1 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 4 (135 درجة) -->
+  <link name="mic_4">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_4" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_4"/>
+    <origin xyz="-0.0707 0.0707 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 5 (180 درجة) -->
+  <link name="mic_5">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_5" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_5"/>
+    <origin xyz="-0.1 0.0 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 6 (225 درجة) -->
+  <link name="mic_6">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_6" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_6"/>
+    <origin xyz="-0.0707 -0.0707 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 7 (270 درجة) -->
+  <link name="mic_7">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_7" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_7"/>
+    <origin xyz="0.0 -0.1 0.015" rpy="0 0 0"/>
+  </joint>
+
+  <!-- الميكروفون 8 (315 درجة) -->
+  <link name="mic_8">
+    <visual>
+      <geometry><cylinder length="0.03" radius="0.01"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="joint_mic_8" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_8"/>
+    <origin xyz="0.0707 -0.0707 0.015" rpy="0 0 0"/>
+  </joint>
+
+</robot>
+

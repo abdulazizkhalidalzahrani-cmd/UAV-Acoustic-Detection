@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<robot name="microphone_array">
+
+  <!-- Material definitions -->
+  <material name="grey"><color rgba="0.5 0.5 0.5 1"/></material>
+  <material name="blue"><color rgba="0 0 0.8 1"/></material>
+
+  <!-- Central Base -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.12" length="0.02"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <!-- Microphones (8 Blue Cylinders) -->
+  <!-- Mic 1 -->
+  <link name="mic_1">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_1" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_1"/>
+    <origin xyz="0.1 0 0.03"/>
+  </joint>
+
+  <!-- Mic 2 -->
+  <link name="mic_2">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_2" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_2"/>
+    <origin xyz="0.0707 0.0707 0.03"/>
+  </joint>
+
+  <!-- Mic 3 -->
+  <link name="mic_3">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_3" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_3"/>
+    <origin xyz="0 0.1 0.03"/>
+  </joint>
+
+  <!-- Mic 4 -->
+  <link name="mic_4">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_4" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_4"/>
+    <origin xyz="-0.0707 0.0707 0.03"/>
+  </joint>
+
+  <!-- Mic 5 -->
+  <link name="mic_5">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_5" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_5"/>
+    <origin xyz="-0.1 0 0.03"/>
+  </joint>
+
+  <!-- Mic 6 -->
+  <link name="mic_6">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_6" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_6"/>
+    <origin xyz="-0.0707 -0.0707 0.03"/>
+  </joint>
+
+  <!-- Mic 7 -->
+  <link name="mic_7">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_7" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_7"/>
+    <origin xyz="0 -0.1 0.03"/>
+  </joint>
+
+  <!-- Mic 8 -->
+  <link name="mic_8">
+    <visual>
+      <geometry><cylinder radius="0.01" length="0.04"/></geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="base_to_mic_8" type="fixed">
+    <parent link="base_link"/>
+    <child link="mic_8"/>
+    <origin xyz="0.0707 -0.0707 0.03"/>
+  </joint>
+
+</robot>
+

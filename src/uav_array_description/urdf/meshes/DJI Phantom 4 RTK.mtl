@@ -1,0 +1,121 @@
+# MTL file - created by a modified js OBJExporter
+
+newmtl Body_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Gimbal_root_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Gimbal_sheet_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Gimbal_1_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Camera_body_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Lens_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Gimbal_cylinder_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Leg_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl RTK_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Motor_front
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Propreller_mat
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+
+newmtl Motor_back
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.5 0.5 0.5
+Ke 0 0 0
